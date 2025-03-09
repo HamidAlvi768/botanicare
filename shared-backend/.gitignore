@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary files
+.tmp/
+.temp/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - WebStorm/IntelliJ
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Build output
+dist/
+build/
+
+# Misc
+.DS_Store
+Thumbs.db 
