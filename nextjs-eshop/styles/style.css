@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+:root{
+  --dark: #373940;
+  --white: #FFF;
+  --light-grey: #EEEEEE;
+  --yellow: #FFDB46;
+}
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  background-color: var(--white);
+  color: var(--dark) !important;
+  font-weight: bold !important;
+}
+nav{
+  z-index: 999;
+}
+.uk-navbar-nav > li > a{
+  color: var(--font-main-color) !important;
+}
+button[href="#offcanvas-slide"]{
+  background-color: transparent;
+  border: none;
+}
+.uk-navbar-container:not(.uk-navbar-transparent){
+  background-color: var(--white)!important;
+}
+.uk-offcanvas-bar a{
+  color: var(--dark) !important;
+}
+div .uk-offcanvas-bar > button{
+  color: var(--dark) !important;
+}
+.link-add-to-wishlist > .la-plus-circle{
+  color: var(--dark) !important;
+}
+.uk-button-text-no-border::before{
+  border: none !important;
+}
+.icon-star{
+  color: var(--yellow);
+}
+.article-card-dots{
+  font-size: 4em;
+  color: var(--light-grey);
+}
+footer form input[type=email]{
+  border: 2px solid var(--dark) !important;
+}
+.footer-list-links{
+  color: var(--dark);
+}
+.footer-list-links:hover{
+  text-decoration: none;
+}
+.footer-social-icons{
+  font-size:2em;
+  color: var(--dark);
+}
